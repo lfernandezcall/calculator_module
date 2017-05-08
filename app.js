@@ -1,5 +1,5 @@
 var moment = require('moment')
-console.log("Today is: " + moment().format('LLLL'))
+console.log("Now: " + moment().format('LLLL'))
 
 var sumFunc = require('./operations/sum.js').sum
 sumFunc()
