@@ -1,3 +1,6 @@
+var moment = require('moment')
+console.log("Today is: " + moment().format('LLLL'))
+
 var sumFunc = require('./operations/sum.js').sum
 sumFunc()
 
@@ -9,3 +12,4 @@ mulFunc()
 
 var divFunc = require('./operations/division.js').div	
 divFunc()
+
