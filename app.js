@@ -10,6 +10,6 @@ subFunc()
 var mulFunc = require('./operations/multiplication.js').mul		
 mulFunc()
 
-var divFunc = require('./operations/division.js').div	
-divFunc()
+var divFunc = require('./operations/division.js')
+divFunc(7, 6)
 
